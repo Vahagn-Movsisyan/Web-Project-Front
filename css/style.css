@@ -1,0 +1,209 @@
+body {
+  background-image: url(../img/b_coffee.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div_box {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -315px;
+}
+
+.div_photo {
+  padding: 25px;
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -319px;
+  margin-inline: -2px;
+}
+
+.div_info {
+  padding: 25px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+.div_box img {
+  margin: 5px;
+}
+
+.div_photo img {
+  margin: 6px;
+}
+
+.div_info img {
+  margin: auto;
+}
+
+.about_me_photo {
+  float: right;
+  margin-inline: 290px;
+  margin-top: -270px;
+}
+
+.design_photo {
+  float: right;
+  margin-inline: 370px;
+  margin-top: -130px;
+ }
+
+.txt_color {
+  color: green;
+  text-decoration: underline;
+  text-align: left;
+  display: inline-block;
+  font-family: Arial;
+}
+
+.txt {
+  font-family:Arial;
+  text-align: left;
+  display: inline-block;
+}
+
+.a_footer{
+  color: #555555;
+  font-family: Serif;
+}
+
+.left-div {
+  float: left;
+  margin-right: 30px;
+}
+
+.right-div {
+  float: right;
+  margin: 5px;
+}
+
+.div-left {
+  float: left;
+  margin-right: 460px ;
+}
+
+.div-right {
+  margin-top: -83px ;
+  margin-left: 460px;
+}
+
+.right-div p {
+  display: inline-block;
+  margin: 0;
+}
+
+.left-div img {
+  display: block;
+  height: auto;
+}
+
+.p_design {
+  color: black;
+  font-family: "Arial";
+  font-size: 20px;
+}
+
+a.a_design {
+  color: black;
+  font-family: "Arial";
+}
+
+.a_design:hover {
+  color: green;
+  text-decoration: underline;
+  text-align: left;
+  display: inline-block;
+  font-family: Arial;
+}
+
+.div_left_contact {
+  float: left;
+  margin-right: 500px;
+}
+.login > input{
+  width:270px;
+  height:40px;
+  padding-left:5px;
+  margin-left:10px;
+  background:none;
+}
+
+#logoContainer img {
+  margin: 10px;
+}
+
+#buttonImage {
+  display: block;
+  margin: auto;
+}
+
+#buttonImageAbout {
+  display: block;
+  margin: auto;
+}
+
+#buttonImagePortfolio {
+  display: block;
+  margin: auto;
+}
+
+#buttonImageServices {
+  display: block;
+  margin: auto;
+}
+
+#buttonImageContact {
+  display: block;
+  margin: auto;
+}
+
+#buttonContainer {
+  text-align: center;
+}
+
+#buttonImageContact:hover {
+  content: url("../img/btn_5_over.png");
+}
+
+#buttonImageServices:hover {
+  content: url("../img/btn_4_over.png");
+}
+
+#buttonImagePortfolio:hover {
+  content: url("../img/btn_3_over.png");
+}
+
+#buttonImageAbout:hover {
+  content: url("../img/btn_2_over.png");
+}
+
+#buttonImage:hover {
+  content: url('../img/btn_1_over.png');
+}
+
+#buttonImage, #buttonImageAbout, #buttonImagePortfolio, #buttonImageServices, #buttonImageContact {
+  display: inline-block;
+  margin: 10px;
+}
